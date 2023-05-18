@@ -1,0 +1,25 @@
+.card__container{
+    position: relative;
+    top: 70px;
+   
+    border: 1px solid #3e4357;
+    border-radius: 0.7rem;
+    width: 350px;
+    height: 500px;
+
+    display: flex;        /* Margin-top fincionou com usamos o display-flex */
+    overflow: hidden;     /* tudo que tiver fora da caixa sera cortado ou escondido */
+
+    
+   
+}
+
+.card__img{
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform .8s;
+}
+
+.card__img:hover{
+    transform: scale(1.1); /* 1 = 100%  */
+}
